@@ -1,0 +1,82 @@
+.calculator {
+  max-width: 400px;
+  margin: 5em auto;
+  padding: 20px;
+  background-color: #ffffff; /* Light blue background */
+  border: 2px solid #ffffff; /* Complementary color - Orange */
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.calculator-screen input {
+  width: 90%;
+  height: 50px;
+  font-size: 24px;
+  text-align: right;
+  padding: 10px;
+  border: 5px solid #a7a3aa; /* Complementary color - Orange */
+  border-radius: 4px;
+  outline: none;
+}
+
+.calculator-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  margin-top: 10px;
+}
+.calculator-button {
+  width: 100%;
+
+  font-size: 20px;
+  background-color: #a29faa; /* Blue */
+  color: rgb(37, 36, 36);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 0.8em;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #361e75; /* Blue */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 0.8em;
+}
+
+button:hover {
+  background-color: #9490a0; /* Darker blue on hover */
+}
+
+input {
+  width: 80px;
+  height: 25px; /* Adjust the height as needed */
+  font-size: 16px;
+  text-align: left; /* Align to the right */
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin: 0.6em;
+}
+
+.clear-button {
+  background-color: #f52602; /* Red */
+  margin-top: 0.8em;
+}
+
+.clear-button:hover {
+  background-color: #d84315; /* Darker red on hover */
+}
+
+.equals-button {
+  background-color: #ffeb3b; /* Yellow */
+  color: #333;
+}
+
+.equals-button:hover {
+  background-color: #fbc02d; /* Darker yellow on hover */
+}
